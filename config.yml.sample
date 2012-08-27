@@ -1,0 +1,13 @@
+auth:
+  login_url: http://localhost/login
+  form:
+    user-id: hoge
+    password: fuga
+  submit: user-id
+list:
+  - http://localhost/page1
+  - http://localhost/page2
+  - http://localhost/page3
+  - http://localhost/page4
+  - http://localhost/page5
+output: ./output.pdf
